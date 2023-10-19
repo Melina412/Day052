@@ -1,0 +1,42 @@
+section {
+  width: 100vw;
+  margin: 50px auto;
+
+  div.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 30px 0 30px;
+    background-color: rgb(44, 44, 44);
+
+    div.bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &:first-child {
+        padding: 0 0 30px 0;
+      }
+      &:last-child {
+        padding: 30px 0 30px 0;
+        border-top: 1px solid white;
+      }
+
+      p {
+        margin: 0;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      button {
+        height: 20px;
+        width: 20px;
+        padding: 0;
+      }
+    }
+
+    div.hide {
+      display: none;
+    }
+  }
+}
